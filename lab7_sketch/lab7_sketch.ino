@@ -17,7 +17,7 @@
 int sensor_pin = A0;
 int pulse_signal = 0;
 int upper_threshold = 860; //or your threshold of choice
-int lower_threshold = 800; //or your threshold of choice
+int lower_threshold = 785; //or your threshold of choice
 int counter = 0;
 
 bool any_peak_detected = false;
@@ -93,8 +93,6 @@ void loop() {
   any_peak_detected = false;
   }
   BPM = 60000/pulse_period;
-
-  Serial.println(BPM);
   
   
 }
