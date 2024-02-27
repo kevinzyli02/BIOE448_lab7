@@ -19,7 +19,6 @@ int pulse_signal = 0;
 int upper_threshold = 860; //or your threshold of choice
 int lower_threshold = 800; //or your threshold of choice
 int counter = 0;
-float pulse_period = 0;
 
 bool any_peak_detected = false;
 bool first_peak_detected = false;
